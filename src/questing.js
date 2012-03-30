@@ -1,4 +1,10 @@
 //= core/entity
 
-var questing = {};
+var questing = {
+    // create the entities map
+    entities: {
+    }
+};
+
+
 questing.Entity = Entity;

@@ -11,12 +11,16 @@
   },
   
   "dependencies": {
+    "async": "0.1.x",
+    "debug": "*",
     "log": "*",
     "bison": "*",
     "websocket": "*",
     "websocket-server": "*",
     "sanitizer": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "findit": "0.1.x",
+    "out": "*"
   },
 
   "devDependencies": {
