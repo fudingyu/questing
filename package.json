@@ -1,0 +1,39 @@
+{
+  "name": "questing",
+  "description": "BrowserQuest alt server",
+  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+  "tags": [ "browserquest", "game", "rpg" ],
+  "version": "0.0.1",
+  "main": "lib/server",
+
+  "engines": {
+    "node": ">= 0.4.x < 0.7.0"
+  },
+  
+  "dependencies": {
+    "log": "*",
+    "bison": "*",
+    "websocket": "*",
+    "websocket-server": "*",
+    "sanitizer": "*",
+    "underscore": "*"
+  },
+
+  "devDependencies": {
+    "expect.js": "0.1.x",
+    "mocha": "*"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DamonOehlman/QuestServer.git"
+  },
+  
+  "bugs": {
+    "url": "http://github.com/DamonOehlman/QuestServer/issues"
+  },
+  
+  "scripts": { "test": "mocha --reporter spec" },
+  
+  "contributors": []
+}
